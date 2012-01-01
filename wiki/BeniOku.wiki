@@ -1,0 +1,29 @@
+#summary Uygulamayı indirdikten sonra lütfen okuyunuz
+#labels Featured,Phase-Requirements
+
+= Hakkında =
+
+Bu uygulama say.ac projesi kapsamında deneyimlerimizi 
+paylaşmak adına geliştirilmiştir. Uygulama kapsamında 
+say.ac'ın ön kayıt formunda kullandığımız kepçe (captcha) 
+özelliğini nasıl kullandığımızı paylaşmak istedik.
+
+= Uygulama Adresi =
+
+ * http://code.google.com/p/say-ac-kepce
+
+= Klasörler =
+
+ * fontlar, kepçe (captcha) resmi için kullanılan fontlar bulunmaktadır.
+ * kutuphaneler, uygulamayı geliştrirken faydalandığımız kütüphaneler bulunmaktadır. 
+ * temalar, uygulamanın görünümleri (views) bulunmaktadır.
+ * temalar_c, smarty'nin derlenmiş (compile) dosyalarını kaydettiği kısımdır.
+ 
+= Dosyalar = 
+
+ * guvenlik_kodu.php, güvenlik kodunu oluşturan ve bir resim çıktısı üreten php sayfası
+ * test.php, uygulamamızı test ettiğimiz sayfa
+ 
+= Lütfen Dikkat =
+
+ * temalar_c klasörüne yazma izni verilmiş olmalıdır, genelde 777 izni verilir
