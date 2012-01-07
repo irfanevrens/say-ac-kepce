@@ -11,7 +11,6 @@ klasörler
 --------- 
  - fontlar, kepçe (captcha) resmi için kullanılan fontlar bulunmaktadır.
  - kutuphaneler, uygulamayı geliştrirken faydalandığımız kütüphaneler bulunmaktadır.
- 	- 
  - temalar, uygulamanın görünümleri (views) bulunmaktadır.
  - temalar_c, smarty'nin derlenmiş (compile) dosyalarını kaydettiği kısımdır.
  
