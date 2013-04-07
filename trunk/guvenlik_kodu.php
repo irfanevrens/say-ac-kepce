@@ -45,13 +45,13 @@ $resim = imagecreatetruecolor(100, 40);
 // bu rengi, ekrana güvenlik kodunu yazmak için kullanacağız. 
 // detaylı bilgi almak için
 // http://www.php.net/manual/tr/function.imagecolorallocate.php
-$white = imagecolorallocate($resim, 255, 255, 255);
+$beyaz = imagecolorallocate($resim, 255, 255, 255);
 
 // resim nesnemizin üzerine oluşturduğumuz güvenlik kodunu 
 // ilgili fontumuzu kullanarak ve belli bir ebat dikkate alınarak 
 // yazdırıyoruz. bu fonksiyon hakkında detaylı bilgi almak için
 // http://www.php.net/manual/tr/function.imagefttext.php
-imagefttext($resim, 20, 0, 10, 28, $white, $font, $guvenlik_kodu);
+imagefttext($resim, 20, 0, 10, 28, $beyaz, $font, $guvenlik_kodu);
 
 // güvenlik kodumuzu ekrana resim olarak basmamız için burada 
 // gerekli başlık (header) bilgilerini tanımlıyoruz. cache yapmaması
